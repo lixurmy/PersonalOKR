@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDBD5C3925A9ED4800AF0467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */; };
-		BDBD5C3B25A9ED4800AF0467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3A25A9ED4800AF0467 /* SceneDelegate.swift */; };
-		BDBD5C3D25A9ED4800AF0467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3C25A9ED4800AF0467 /* ViewController.swift */; };
-		BDBD5C4025A9ED4800AF0467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBD5C3E25A9ED4800AF0467 /* Main.storyboard */; };
+		BDBD5C3D25A9ED4800AF0467 /* POKRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */; };
 		BDBD5C4225A9ED4D00AF0467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */; };
 		BDBD5C4525A9ED4D00AF0467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBD5C4325A9ED4D00AF0467 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		BDBD5C3525A9ED4800AF0467 /* PersonalORK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalORK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDBD5C3A25A9ED4800AF0467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDBD5C3C25A9ED4800AF0467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDBD5C3F25A9ED4800AF0467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRMainViewController.swift; sourceTree = "<group>"; };
 		BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBD5C4425A9ED4D00AF0467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBD5C4625A9ED4D00AF0467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */,
-				BDBD5C3A25A9ED4800AF0467 /* SceneDelegate.swift */,
-				BDBD5C3C25A9ED4800AF0467 /* ViewController.swift */,
-				BDBD5C3E25A9ED4800AF0467 /* Main.storyboard */,
+				BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */,
 				BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */,
 				BDBD5C4325A9ED4D00AF0467 /* LaunchScreen.storyboard */,
 				BDBD5C4625A9ED4D00AF0467 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				BDBD5C4525A9ED4D00AF0467 /* LaunchScreen.storyboard in Resources */,
 				BDBD5C4225A9ED4D00AF0467 /* Assets.xcassets in Resources */,
-				BDBD5C4025A9ED4800AF0467 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +130,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBD5C3D25A9ED4800AF0467 /* ViewController.swift in Sources */,
+				BDBD5C3D25A9ED4800AF0467 /* POKRMainViewController.swift in Sources */,
 				BDBD5C3925A9ED4800AF0467 /* AppDelegate.swift in Sources */,
-				BDBD5C3B25A9ED4800AF0467 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BDBD5C3E25A9ED4800AF0467 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDBD5C3F25A9ED4800AF0467 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDBD5C4325A9ED4D00AF0467 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +270,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PersonalORK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +279,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bububa.PersonalORK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,7 +290,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PersonalORK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bububa.PersonalORK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
