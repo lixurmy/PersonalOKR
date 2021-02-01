@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD780CCF25AC9752004287DC /* POKRTimePeriodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CCE25AC9752004287DC /* POKRTimePeriodModel.swift */; };
+		BD780CD425AC9789004287DC /* POKRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CD325AC9789004287DC /* POKRBaseViewController.swift */; };
+		BD780CD825AC97D5004287DC /* POKRTimePeriodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CD725AC97D5004287DC /* POKRTimePeriodDetailViewController.swift */; };
+		BD780CDB25AC97EF004287DC /* POKRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CDA25AC97EF004287DC /* POKRBaseModel.swift */; };
+		BD780CDE25AC9813004287DC /* POKRBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CDD25AC9813004287DC /* POKRBaseView.swift */; };
+		BD780CE125AC9850004287DC /* POKRTimePeriodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CE025AC9850004287DC /* POKRTimePeriodListViewController.swift */; };
+		BD780CE425B5E364004287DC /* POKRNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD780CE325B5E364004287DC /* POKRNavigationControllerDelegate.swift */; };
 		BDBD5C3925A9ED4800AF0467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */; };
 		BDBD5C3D25A9ED4800AF0467 /* POKRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */; };
 		BDBD5C4225A9ED4D00AF0467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */; };
 		BDBD5C4525A9ED4D00AF0467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBD5C4325A9ED4D00AF0467 /* LaunchScreen.storyboard */; };
+		BDF2DC0825C849B700A7E740 /* POKRSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF2DC0725C849B700A7E740 /* POKRSettingsViewController.swift */; };
+		BDF2DC0B25C854A300A7E740 /* POKRBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF2DC0A25C854A300A7E740 /* POKRBaseTableViewCell.swift */; };
+		BDF2DC0E25C854C900A7E740 /* POKRSettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF2DC0D25C854C900A7E740 /* POKRSettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD780CCE25AC9752004287DC /* POKRTimePeriodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRTimePeriodModel.swift; sourceTree = "<group>"; };
+		BD780CD325AC9789004287DC /* POKRBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRBaseViewController.swift; sourceTree = "<group>"; };
+		BD780CD725AC97D5004287DC /* POKRTimePeriodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRTimePeriodDetailViewController.swift; sourceTree = "<group>"; };
+		BD780CDA25AC97EF004287DC /* POKRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRBaseModel.swift; sourceTree = "<group>"; };
+		BD780CDD25AC9813004287DC /* POKRBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRBaseView.swift; sourceTree = "<group>"; };
+		BD780CE025AC9850004287DC /* POKRTimePeriodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRTimePeriodListViewController.swift; sourceTree = "<group>"; };
+		BD780CE325B5E364004287DC /* POKRNavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		BDBD5C3525A9ED4800AF0467 /* PersonalORK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalORK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRMainViewController.swift; sourceTree = "<group>"; };
 		BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBD5C4425A9ED4D00AF0467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBD5C4625A9ED4D00AF0467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF2DC0725C849B700A7E740 /* POKRSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRSettingsViewController.swift; sourceTree = "<group>"; };
+		BDF2DC0A25C854A300A7E740 /* POKRBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRBaseTableViewCell.swift; sourceTree = "<group>"; };
+		BDF2DC0D25C854C900A7E740 /* POKRSettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POKRSettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD780CCD25AC9645004287DC /* POKRTimePeriod */ = {
+			isa = PBXGroup;
+			children = (
+				BD780CCE25AC9752004287DC /* POKRTimePeriodModel.swift */,
+				BD780CD725AC97D5004287DC /* POKRTimePeriodDetailViewController.swift */,
+				BD780CE025AC9850004287DC /* POKRTimePeriodListViewController.swift */,
+			);
+			path = POKRTimePeriod;
+			sourceTree = "<group>";
+		};
+		BD780CD225AC9775004287DC /* POKRFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				BD780CD325AC9789004287DC /* POKRBaseViewController.swift */,
+				BD780CDA25AC97EF004287DC /* POKRBaseModel.swift */,
+				BD780CDD25AC9813004287DC /* POKRBaseView.swift */,
+				BD780CE325B5E364004287DC /* POKRNavigationControllerDelegate.swift */,
+				BDF2DC0A25C854A300A7E740 /* POKRBaseTableViewCell.swift */,
+			);
+			path = POKRFoundation;
+			sourceTree = "<group>";
+		};
 		BDBD5C2C25A9ED4800AF0467 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +94,9 @@
 		BDBD5C3725A9ED4800AF0467 /* PersonalORK */ = {
 			isa = PBXGroup;
 			children = (
+				BD780CD225AC9775004287DC /* POKRFoundation */,
+				BDF2DC0625C8498500A7E740 /* POKRSettings */,
+				BD780CCD25AC9645004287DC /* POKRTimePeriod */,
 				BDBD5C3825A9ED4800AF0467 /* AppDelegate.swift */,
 				BDBD5C3C25A9ED4800AF0467 /* POKRMainViewController.swift */,
 				BDBD5C4125A9ED4D00AF0467 /* Assets.xcassets */,
@@ -59,6 +104,15 @@
 				BDBD5C4625A9ED4D00AF0467 /* Info.plist */,
 			);
 			path = PersonalORK;
+			sourceTree = "<group>";
+		};
+		BDF2DC0625C8498500A7E740 /* POKRSettings */ = {
+			isa = PBXGroup;
+			children = (
+				BDF2DC0725C849B700A7E740 /* POKRSettingsViewController.swift */,
+				BDF2DC0D25C854C900A7E740 /* POKRSettingsTableViewCell.swift */,
+			);
+			path = POKRSettings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +185,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBD5C3D25A9ED4800AF0467 /* POKRMainViewController.swift in Sources */,
+				BD780CD425AC9789004287DC /* POKRBaseViewController.swift in Sources */,
+				BD780CE125AC9850004287DC /* POKRTimePeriodListViewController.swift in Sources */,
+				BD780CDB25AC97EF004287DC /* POKRBaseModel.swift in Sources */,
+				BD780CE425B5E364004287DC /* POKRNavigationControllerDelegate.swift in Sources */,
+				BD780CD825AC97D5004287DC /* POKRTimePeriodDetailViewController.swift in Sources */,
+				BD780CCF25AC9752004287DC /* POKRTimePeriodModel.swift in Sources */,
 				BDBD5C3925A9ED4800AF0467 /* AppDelegate.swift in Sources */,
+				BDF2DC0825C849B700A7E740 /* POKRSettingsViewController.swift in Sources */,
+				BD780CDE25AC9813004287DC /* POKRBaseView.swift in Sources */,
+				BDF2DC0E25C854C900A7E740 /* POKRSettingsTableViewCell.swift in Sources */,
+				BDF2DC0B25C854A300A7E740 /* POKRBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

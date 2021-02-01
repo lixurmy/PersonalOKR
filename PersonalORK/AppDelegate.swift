@@ -15,9 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        let navigationController = UINavigationController.init()
         let vc = POKRMainViewController.init()
+        navigationController.viewControllers = NSArray.init(object: vc) as! [UIViewController]
         window = UIWindow.init(frame: UIScreen.main.bounds)
-        window?.rootViewController = vc
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         
         return true

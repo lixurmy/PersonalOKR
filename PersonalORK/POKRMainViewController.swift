@@ -7,14 +7,21 @@
 
 import UIKit
 
-class POKRMainViewController: UIViewController {
+class POKRMainViewController: POKRBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.view.backgroundColor = UIColor.yellow
+        
+        self.view.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action:#selector(tapGRAction)))
+        self.title = "主页"
     }
 
+    @objc func tapGRAction() -> Void {
+        let settingsVC = POKRSettingsViewController.init()
+        self.navigationController?.pushViewController(settingsVC, animated: true)
+    }
 
 }
 
